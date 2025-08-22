@@ -1,0 +1,8 @@
+from pdf2docx import Converter
+
+old_pdf =  r"D:\Anjali\College\Semesters\B Tech IT-2023 Course Sem-I to VI Syllabus 19-4-2025.pdf"
+new_doc = "new.docx"
+
+obj = Converter(old_pdf)
+obj.convert(new_doc)
+obj.close()
